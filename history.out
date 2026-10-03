@@ -1,0 +1,11 @@
+    1  su -
+    2  cp /usr/bin/cat ~/mycat
+    3  chown root ~/mycat
+    4  su -
+    5  ls -l ~/mycat
+    6  ~/mycat /etc/shadow
+    7  cp /usr/bin/cat ~/mycat_cap
+    8  su -
+    9  ~/mycat_cap /etc/shadow
+   10  su -
+   11  history > ~/history.out
